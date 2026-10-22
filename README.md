@@ -20,7 +20,7 @@ A personal portfolio introducing me, my skills, education, and internship projec
 
 ### Task 3: Landing Page
 
-A landing page with sections for featured information, an introduction, and contact. This project is currently being refined.
+A personal landing page introducing me and highlighting selected projects, with responsive styling and contact links.
 
 - **Built with:** HTML, CSS
-- **Status:** Currently being refined; project files will be added when ready.
+- **Open:** [Task 3 landing page](./Task3/index3.html)
