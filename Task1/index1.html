@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#151515">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <main class="calculator" aria-label="Calculator">
+        <header class="calculator__header">
+            <h1 class="calculator__title">Calculator</h1>
+            <span class="calculator__badge">Standard</span>
+        </header>
+
+        <input
+            class="calculator__display"
+            id="display"
+            type="text"
+            inputmode="none"
+            placeholder="0"
+            aria-label="Calculator display"
+            aria-live="polite"
+            aria-atomic="true"
+            readonly
+        >
+        <p class="calculator__status" id="status" role="status" aria-live="polite"></p>
+
+        <section class="calculator__keys" aria-label="Calculator keys">
+            <button class="key key--utility" type="button" data-action="clear" aria-label="Clear all">AC</button>
+            <button class="key key--utility" type="button" data-value="(" aria-label="Open parenthesis">(</button>
+            <button class="key key--utility" type="button" data-value=")" aria-label="Close parenthesis">)</button>
+            <button class="key key--operator" type="button" data-action="backspace" aria-label="Delete last character">⌫</button>
+
+            <button class="key" type="button" data-value="7">7</button>
+            <button class="key" type="button" data-value="8">8</button>
+            <button class="key" type="button" data-value="9">9</button>
+            <button class="key key--operator" type="button" data-value="/">÷</button>
+
+            <button class="key" type="button" data-value="4">4</button>
+            <button class="key" type="button" data-value="5">5</button>
+            <button class="key" type="button" data-value="6">6</button>
+            <button class="key key--operator" type="button" data-value="*">×</button>
+
+            <button class="key" type="button" data-value="1">1</button>
+            <button class="key" type="button" data-value="2">2</button>
+            <button class="key" type="button" data-value="3">3</button>
+            <button class="key key--operator" type="button" data-value="-">−</button>
+
+            <button class="key key--utility" type="button" data-value="." aria-label="Decimal point">.</button>
+            <button class="key" type="button" data-value="0">0</button>
+            <button class="key key--equals" type="button" data-action="calculate" aria-label="Calculate">=</button>
+            <button class="key key--operator" type="button" data-value="+" aria-label="Add">+</button>
+        </section>
+
+    </main>
+
+    <script src="script1.js" defer></script>
+</body>
+</html>
