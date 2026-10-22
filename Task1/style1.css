@@ -22,7 +22,7 @@
 }
 
 body {
-    min-width: 280px;
+    min-width: 0;
     min-height: 100vh;
     margin: 0;
     display: grid;
@@ -36,6 +36,7 @@ body {
 .calculator {
     position: relative;
     width: min(100%, 368px);
+    min-width: 0;
     padding: 28px;
     overflow: hidden;
     border: 1px solid var(--line);
@@ -78,6 +79,7 @@ body {
 
 .calculator__display {
     width: 100%;
+    min-width: 0;
     min-height: 104px;
     margin-bottom: 20px;
     padding: 16px;
